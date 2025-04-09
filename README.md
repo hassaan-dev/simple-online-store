@@ -38,8 +38,8 @@ php artisan storage:link
 - Password: password
 
 
-## Devekioment Stack
-- BackendL Laracel 12 with MySQL
+## Development Stack
+- BackendL Laravel 12 with MySQL
 - Frontend: Bootstrap 5.3.5 with plain JavaScript
 - Development Environment: MAMP Pro on macOS 15
 
