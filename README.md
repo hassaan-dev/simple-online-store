@@ -1,6 +1,6 @@
 # Online Shop - Order Management System
 
-A simplified order management system for an online shop built with Laravel and Bootstrap. This system allows customers to browse products, add them to their cart, and place orders. Administrators can manage products and orders through a dedicated admin interface.
+A simplified order management system for an online shop built with Laravel and Bootstrap. This system allows customers to browse products, add them to their cart, and place orders.
 
 ## Features
 
@@ -10,7 +10,6 @@ A simplified order management system for an online shop built with Laravel and B
 - Add products to cart
 - Checkout and place orders
 - View order history and details
-
 
 ## Installation
 
@@ -37,11 +36,10 @@ php artisan storage:link
 - Email: user@example.com
 - Password: password
 
-
 ## Development Stack
-- BackendL Laravel 12 with MySQL
+- Backend: Laravel 12 with MySQL
 - Frontend: Bootstrap 5.3.5 with plain JavaScript
-- Development Environment: MAMP Pro on macOS 15
+- Development Environment: MAMP Pro on macOS 15 with PHP 8.2
 
 ## Setup and Run Instructions
 
