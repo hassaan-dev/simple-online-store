@@ -13,22 +13,77 @@ A simplified order management system for an online shop built with Laravel and B
 
 ## Installation
 
+## Installation
+
 1. Clone the repository
+
+```
+
+git clone [https://github.com/hassaan-dev/simple-online-store](https://github.com/hassaan-dev/simple-online-store)  
+cd online-shop
+
+```
+
 2. Install PHP dependencies
+
+```
+
+composer install
+
+```
+
 3. Create and configure the environment file
+
+```
+
+cp .env.example .env
+
+```
+
 4. Configure your database settings in `.env` file
+
+```
+
+DB_CONNECTION=mysql  
+DB_HOST=127.0.0.1  
+DB_PORT=3306  
+DB_DATABASE=online_shop  
+DB_USERNAME=root  
+DB_PASSWORD=root
+
+```
+
 5. Generate application key
+
 ```
+
 php artisan key:generate
+
 ```
+
 6. Run database migrations and seed data
+
 ```
+
 php artisan migrate --seed
+
 ```
+
 7. Create a symbolic link for storage
+
 ```
+
 php artisan storage:link
+
 ```
+
+## Assumptions and Limitations
+
+- This is a simplified system focused on core functionality without advanced features like payment processing.
+- Product images are stored in the `public/images` directory. In a production environment, you would use cloud storage.
+- The shopping cart uses browser localStorage, so cart data is not persistent across different devices or browsers.
+- Order processing is simplified without inventory management beyond basic stock level checks.
+- There is no email notification system for order status updates.
 
 ## Demo Credentials
 
